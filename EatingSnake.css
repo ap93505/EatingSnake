@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background: #dddddd;
+    margin: 30px auto;
+}
+canvas {
+    border: #8b6b13 solid 5px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+#timer {
+    display: none;
+}
+#startGame {
+    margin: 5px;
+}

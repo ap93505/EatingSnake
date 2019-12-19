@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Snake</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="EatingSnake.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="EatingSnake.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <p>
+                    <button id="gameStart" class="btn btn-primary">Start</button>
+                </p>
+                <p>
+                    <span>Score:</span>
+                    <input type="text" id="score" name="score" disabled="disabled" style="width:60px;"/>
+                </p>
+                <p>
+                    <span>Level:</span>
+                    <input type="radio" name="level" value="1" checked/>1
+                    <input type="radio" name="level" value="2"/>2
+                    <input type="radio" name="level" value="3"/>3
+                    <input type="radio" name="level" value="4"/>4
+                    <input type="radio" name="level" value="5"/>5
+                    <input type="radio" name="level" value="6"/>6
+                    <input type="radio" name="level" value="7"/>7
+                    <input type="radio" name="level" value="8"/>8
+                </p>
+                <p>
+                    <div id="timer">
+                        <span>Timer:</span>
+                        <span id="time"></span>
+                    </div>
+                </p>
+                <p> 
+                    <canvas id="canvas" width="720" height="480">canvas not supported</canvas>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
